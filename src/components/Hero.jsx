@@ -48,9 +48,9 @@ const Hero = () => {
           {/*Change Padding correctly */}
           <div className="flex justify-center">
             <motion.img
-              initial={{x:100, opacity:0}}
-              animate={{x:0, opacity:1}}
-              transition={{duration:1, delay:1.4}}
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.4 }}
               src={profilePic}
               alt="Pushpendra Singh"
               className="max-w-[400px] rounded-full"
