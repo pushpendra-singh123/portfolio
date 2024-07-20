@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/PushpendraProfile.jpg";
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -21,7 +21,11 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-6">
           {/*Change Padding correctly */}
           <div className="flex justify-center">
-            <img src={profilePic} alt="Pushpendra Singh" />
+            <img
+              src={profilePic}
+              alt="Pushpendra Singh"
+              className="max-w-[400px] rounded-full"  
+            />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export const EXPERIENCES = [
     year: "2022 - present",
     role: "Student",
     company: "GLA University Mathura",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
+    description: `Actively contributed to a team developing and maintaining web applications utilizing JavaScript, React.js, and Node.js. Played a key role in implementing RESTful APIs and integrating with MongoDB databases, enhancing both functionality and performance. Demonstrated strong problem-solving skills and effective collaboration throughout the project.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
 ];
