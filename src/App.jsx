@@ -1,8 +1,9 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
-import { Experience } from "./constants";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -15,6 +16,7 @@ const App = () => {
       <About />
       <Technologies />
       <Experience />
+      <Projects />
     </div>
   );
 };
