@@ -17,17 +17,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "frontend-clone Nextflix",
+    title: "University Management System",
     image: project1,
-    description: "Simple Netflix clone.(Basic)",
-    technologies: ["HTML", "CSS"],
+    description: "with mentor Raghav Garg PW",
+    technologies: ["java"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "tailwind CSS"],
   },
   {
     title: "E-Commerce Website",
